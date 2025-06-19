@@ -33,6 +33,7 @@ class Employee(db.Model):
         return f'<Employee {self.id}, {self.name}, {self.hire_date}>'
 
 
+
 class Meeting(db.Model):
     __tablename__ = 'meetings'
 
